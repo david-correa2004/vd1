@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Video Fabio</title>
+</head>
+
+<body>
+    <section id="tv">
+        <div class="container">
+            <div class="text">
+                <img src="./assets/icon/logo.svg" alt="">
+            </div>
+            <div class="img">
+                <div class="video">
+                    <div id="lazyframe" data-src="http://www.youtube.com/v/LZLBgv-ZApE?version=3&loop=1&playlist=LZLBgv-ZApE&modestbranding=1&showinfo=0&controls=0&disablekb=1&fs=0&iv_load_policy=3&playsinline=1&rel=0"
+                        data-vendor="youtube">
+                        <div class="btn-play">
+                            <img src="./assets/icon/play.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/img/tv2.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyframe/dist/lazyframe.min.js"></script>
+    <script>
+        lazyframe('#lazyframe');
+    </script>
+</body>
+
+</html>
